@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string-array name="animation_mode_list">
+        <item>без анимации</item>
+        <item>снизу -> вверх</item>
+        <item>сверху -> вниз</item>
+        <item>справа -> налево</item>
+        <item>слева -> направо</item>
+    </string-array>
+</resources>

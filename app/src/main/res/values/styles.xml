@@ -1,0 +1,53 @@
+
+<resources >
+
+    <style name="X2" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/c_white</item>
+
+    </style>
+
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/c_white</item>
+
+    </style>
+
+    <style name="AppTheme.NoActionBar" parent="AppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.Dialog" parent="@style/Theme.AppCompat.Light.Dialog" />
+
+
+    <style name="AlertDialogColorButton" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:buttonBarPositiveButtonStyle">@style/RedButton</item>
+    </style>
+
+    <style name="RedButton" parent="android:Widget.DeviceDefault.Button.Borderless">
+        <item name="android:textColor">@color/c_red</item>
+    </style>
+
+    <style name="Style_ImageButton">
+        <item name="android:background">@color/c_transparent</item>
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:paddingEnd">8dp</item>
+    </style>
+
+    <style name="Style_EditText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:backgroundTint">@color/c_tint</item>
+    </style>
+
+</resources>

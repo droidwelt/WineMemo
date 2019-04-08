@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="diagramm_list_field">
+        <item>tip</item>
+        <item>country</item>
+        <item>region</item>
+        <item>consist</item>
+        <item>god</item>
+        <item>alk</item>
+        <item>rating</item>
+    </string-array>
+</resources>

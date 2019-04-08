@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string-array name="sort_list_field">
+        <item>name</item>
+        <item>tip</item>
+        <item>country</item>
+        <item>region</item>
+        <item>consist</item>
+        <item>firma</item>
+        <item>god</item>
+        <item>alk</item>
+        <item>sug</item>
+        <item>rating</item>
+        <item>dates asc</item>
+        <item>dates desc</item>
+    </string-array>
+</resources>

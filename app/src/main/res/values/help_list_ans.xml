@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="help_list_ans">
+       
+        <item>
+            Like to degust the wine?  Want to keep their impressions?  Then this is the app for you!
+        Create your favorite wines database – WineDB,  take photo front and back wine labels, 
+        add rating, scan wine code, add notes, share wines with friends via Twitter, Facebook 
+        and Email, backup and restore wine data to and from your mobile device and PC</item>
+
+        <item>
+            Application stores the data of your WineDB in SqLite database format – 
+        this is file winmemo.db3 in folder \\sdcard0\\WineMemo\\</item>
+
+        <item>
+            In first install application WineDB  contain initial set of entries for fill wine 
+        cards – for wine types, grape varieties,  wineries, countries, vintage, % alcohol 
+        and sugar. These dictionaries help you enter your wine quick and easy</item>
+
+        <item>
+            WineDB   save two images for each entry - front and back wine labels. 
+        Thumbnail to display in list of records is automatically created from the first image</item>
+
+        <item>
+            Go to the list of entries, press Menu - Settings - Image Sizes.  Select the desired size 
+        to save the image in WineDB. (Image size 960 x 1280 enough to read the label and scan 
+        the code to the devices screen)</item>
+
+        <item>
+            Go to the list of entries, press Menu - Settings - Thumbnail Size.  Select the desired 
+        size to save a thumbnail to display in the list of entries</item>
+
+        <item>
+            Go to the list of entries,  press Menu - Settings - Background color images. Choose one of 
+        three backgrounds for the substrate below the image when viewing or editing card wine</item>
+
+        <item>
+            Go to the list of entries,  press Menu - Settings –Search.  You can switch the search only 
+        by name, or by multiple keywords</item>
+
+        <item>
+            Go to the list of entries, press Menu - Search.  Enter the string in the search box. 
+        As you enter a string in the list will show the records containing the value you typed. 
+        To exit the search mode, press Back</item>
+
+        <item>
+             Go to the list of entries, press Menu - Sort.  In the list, select the field 
+        by which you want to sort the list of wines </item>
+
+        <item>
+            Go to the list of entries, press + .  Enter data in wine card. You can fill in yourself or choose 
+        from catalogs. Add your impressions and rating. Press OK  to save wine card</item>
+
+        <item>
+            In edit card mode drag the slider bar with arrows at the bottom of the screen up.  
+        The image window will open. You can save two images for each wine card.  
+        Swipe left to switch to view and edit second image, swipe right to view and edit 
+        first image.  Tap to Image button to add first image in wine card, you can load 
+        image from your picture gallery, or take a photo</item>
+
+        <item>
+             You can add scan-code to wine card –insert it from last scan value (button Insert) 
+       or fill it manually (not the most convenient way to) </item>
+
+        <item>
+            To quick delete wine card - long tap on the item in list you want to delete. 
+       To delete  wine card in view mode select Menu - Delete</item>
+
+        <item>
+             Short tap to position in list you want to edit. In view mode tap Edit button in top screen </item>
+
+        <item>
+            Make short tap to position in list to view wine card. Double tap to image (or zooming with your 
+        fingers) to view enlarged image.  Repeated double tap – reset zoom.  You can view enlarged 
+        image in edit wine card mode too</item>
+
+        <item>
+            You can add scan-code in wine card, or search wine in your WineDB by scan-code. 
+        Tap Scanner button in list mode to find wine in your WineDB. You can use Google Search, 
+        if the wine is not found in your WineDB.  Wine Memo store last scan-code value, 
+        you can use it to add or create new wine card</item>
+
+        <item>
+            Make short tap to position in list to view wine card.  Tap Share button in top screen 
+        to share your impressions with friends via Twitter, Instagram, Facebook, email</item>
+
+        <item>
+            Go to the list of entries, press Menu – Export and Import database (DB).  Select item Unload DB. 
+        Set DB name to unload, confirm operation.  DB extension will be added automatic. 
+        Application will save your WineDB in Download folder of your device</item>
+
+        <item>
+            Go to the list of entries, press Menu – Export and Import database (DB).  Select item Load DB. 
+        Select wine database in database list and press Select.  Then confirm the selection. 
+        Application will load WineDB </item>
+
+        <item>
+             Go to the list of record, press Menu - Import record. The application allows you 
+        to share record in the format WineMemo Event - file like WME_record_name.wmde. 
+        You can send the record as an email attachment (see. Export events). The resulting 
+        record can be downloaded in its database in several methods. The first way - 
+        open a letter, and select View to attach. This will start the loader records 
+        WineMemo, where you can see the full information about the record is 
+        received and upload it. Next way - save the attachment to your Download folder. 
+        Then, in view mode Download files to open the event (the file is opened loader 
+        records WineMemo).  Other way - open the list of received records stored in the 
+        folder Download, through the application menu. In this case, you enter the Import 
+        records you will see a list of records for download. Select an record will be open 
+        Event Viewer, from which you can add it to the database 
+             </item>
+
+        <item>
+              In view mode tap Menu, then Export record button in menu list to export record in 
+       WineMemo record format (wmde file) via mail client  
+             </item>
+
+        <item>
+            Go to the list of entries, press Menu – Diagramm. Select attribute to
+        built diagramm</item>
+
+        <item>
+            contact us by email – droidwelt@gmail.com</item>
+
+        <item>
+            ERP-system development, mobile applications development -  www.altamix.ru 
+            </item>
+    </string-array>
+</resources>

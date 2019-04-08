@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:alphabeticShortcut="p"
+        android:icon="@drawable/ic_picture"
+        android:orderInCategory="1"
+        android:title="@string/s_image"
+        android:titleCondensed="@string/s_image"
+        app:showAsAction="ifRoom|withText">
+        <menu>
+            <item
+                android:id="@+id/edit_menuItem_pic_choice"
+                android:icon="@drawable/ic_choice_photo"
+                android:orderInCategory="1"
+                android:title="@string/s_picture_choice"
+                android:titleCondensed="@string/s_picture_choice"
+                app:showAsAction="ifRoom|withText" />
+            <item
+                android:id="@+id/edit_menuItem_pic_photo"
+                android:icon="@drawable/ic_photo"
+                android:orderInCategory="2"
+                android:title="@string/s_picture_take"
+                android:titleCondensed="@string/s_picture_take"
+                app:showAsAction="ifRoom|withText" />
+            <item
+                android:id="@+id/edit_menuItem_pic_clear"
+                android:icon="@drawable/ic_clear"
+                android:orderInCategory="3"
+                android:title="@string/s_picture_clear"
+                android:titleCondensed="@string/s_picture_clear"
+                app:showAsAction="ifRoom|withText" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/edit_menuItem_save"
+        android:alphabeticShortcut="s"
+        android:icon="@drawable/ic_save"
+        android:orderInCategory="1"
+        android:title="@string/s_save"
+        android:titleCondensed="@string/s_save"
+        app:showAsAction="ifRoom|withText" />
+
+</menu>

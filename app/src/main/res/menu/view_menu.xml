@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/view_menuItem_edit"
+        android:alphabeticShortcut="e"
+        android:icon="@drawable/ic_edit"
+        android:orderInCategory="1"
+        app:showAsAction="ifRoom|withText"
+        android:title="@string/s_edit"
+        android:titleCondensed="@string/s_edit" />
+    <item
+        android:alphabeticShortcut="p"
+        android:icon="@drawable/ic_more"
+        android:orderInCategory="2"
+        app:showAsAction="ifRoom|withText"
+        android:title="@string/s_more"
+        android:titleCondensed="@string/s_more">
+        <menu>
+            <item
+                android:id="@+id/view_menuItem_share"
+                android:alphabeticShortcut="h"
+                android:icon="@drawable/ic_share"
+                android:orderInCategory="11"
+                app:showAsAction="ifRoom|withText"
+                android:title="@string/s_share"
+                android:titleCondensed="@string/s_share" />
+            <item
+                android:id="@+id/view_menuItem_export"
+                android:alphabeticShortcut="x"
+                android:icon="@drawable/ic_export"
+                android:orderInCategory="12"
+                app:showAsAction="ifRoom|withText"
+                android:title="@string/s_export"
+                android:titleCondensed="@string/s_export" />
+            <item
+                android:id="@+id/view_menuItem_delete"
+                android:alphabeticShortcut="d"
+                android:icon="@drawable/ic_delete"
+                android:orderInCategory="13"
+                app:showAsAction="ifRoom|withText"
+                android:title="@string/s_delete"
+                android:titleCondensed="@string/s_delete" />
+        </menu>
+    </item>
+
+</menu>

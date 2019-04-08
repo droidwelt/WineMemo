@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sort_list_name">
+        <item>Название</item>
+        <item>Тип</item>
+        <item>Страна</item>
+        <item>Регион</item>
+        <item>Сорта винограда</item>
+        <item>Фирма</item>
+        <item>Год</item>
+        <item>Алкоголь, %</item>
+        <item>Сахар, г/л</item>
+        <item>Оценка</item>
+        <item>Дата (по возрастанию)</item>
+        <item>Дата (по убыванию)</item>
+    </string-array>
+</resources>
+
+

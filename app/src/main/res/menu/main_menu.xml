@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/main_memuItem_add"
+        android:icon="@drawable/ic_add"
+        android:orderInCategory="1"
+        android:title="@string/s_add"
+        android:titleCondensed="@string/s_add"
+        app:showAsAction="ifRoom|withText" />
+
+    <item
+        android:id="@+id/main_memuItem_scanner"
+        android:icon="@drawable/ic_scanner"
+        android:orderInCategory="11"
+        android:title="@string/s_scanner"
+        android:titleCondensed="@string/s_scanner"
+        app:showAsAction="ifRoom|withText" />
+
+    <item
+        android:icon="@drawable/ic_more"
+        android:orderInCategory="2"
+        android:title="@string/s_more"
+        android:titleCondensed="@string/s_more"
+        app:showAsAction="ifRoom|withText">
+        <menu>
+
+            <item
+                android:id="@+id/main_memuItem_order"
+                android:icon="@drawable/ic_order"
+                android:orderInCategory="12"
+                android:title="@string/s_order"
+                app:showAsAction="ifRoom|withText" />
+            <item
+                android:id="@+id/main_memuItem_import"
+                android:icon="@drawable/ic_import"
+                android:orderInCategory="13"
+                android:title="@string/s_menu_import"
+                app:showAsAction="ifRoom|withText" />
+            <item
+                android:id="@+id/main_memuItem_diagramm"
+                android:icon="@drawable/ic_diagram"
+                android:orderInCategory="14"
+                android:title="@string/s_diagramm"
+                app:showAsAction="ifRoom|withText" />
+            <item
+                android:id="@+id/main_memuItem_help"
+                android:icon="@drawable/ic_help"
+                android:orderInCategory="15"
+                android:title="@string/s_help"
+                android:titleCondensed="@string/s_help"
+                app:showAsAction="ifRoom|withText" />
+            <item
+                android:id="@+id/main_memuItem_pref"
+                android:icon="@drawable/ic_submenu"
+                android:orderInCategory="16"
+                android:title="@string/s_pref"
+                android:titleCondensed="@string/s_pref"
+                android:visible="true"
+                app:showAsAction="ifRoom|collapseActionView" />
+            <item
+                android:icon="@drawable/ic_import_export"
+                android:orderInCategory="17"
+                android:title="@string/s_options"
+                android:titleCondensed="@string/s_options"
+                app:showAsAction="ifRoom">
+                <menu>
+                    <item
+                        android:id="@+id/main_memuItem_backupDB"
+                        android:icon="@drawable/ic_export"
+                        android:orderInCategory="171"
+                        android:title="@string/s_backupDB"
+                        android:titleCondensed="@string/s_backupDB"
+                        app:showAsAction="always" />
+                    <item
+                        android:id="@+id/main_memuItem_restoreDB"
+                        android:icon="@drawable/ic_import"
+                        android:orderInCategory="172"
+                        android:title="@string/s_restoreDB"
+                        android:titleCondensed="@string/s_restoreDB"
+                        app:showAsAction="always" />
+                </menu>
+            </item>
+            <item
+                android:id="@+id/main_memuItem_about"
+                android:icon="@drawable/ic_info"
+                android:orderInCategory="18"
+                android:title="@string/s_about"
+                android:titleCondensed="@string/s_about"
+                app:showAsAction="ifRoom|withText" />
+        </menu>
+    </item>
+
+</menu>

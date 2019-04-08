@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="ru.droidwelt.winememo"
+    android:installLocation="auto">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <!--   <uses-permission android:name="com.android.email.permission.READ_ATTACHMENT" /> -->
+
+    <application
+        android:name=".WMA"
+        android:allowBackup="true"
+        android:fullBackupContent="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/s_app_name"
+        android:largeHeap="true"
+        android:logo="@drawable/ic_launcher"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning"
+        tools:replace="android:label">
+
+        <activity
+            android:name=".additional_UI.Start_Activity"
+            android:label="@string/s_app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".main_UI.Main_Activity"
+            android:label="@string/s_app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden" />
+
+        <activity
+            android:name=".main_UI.Import_Activity"
+            android:icon="@drawable/ic_launcher"
+            android:label="@string/s_app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+
+            <intent-filter
+                android:icon="@drawable/ic_launcher"
+                android:label="@string/s_app_name">
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:scheme="file" />
+                <data android:host="*" />
+                <data android:pathPattern=".wmde" />
+                <data android:pathPattern=".*\\.wmde" />
+                <data android:mimeType="*/*" />
+            </intent-filter>
+
+            <intent-filter
+                android:icon="@drawable/ic_launcher"
+                android:label="@string/s_app_name">
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:scheme="content" />
+                <data android:host="*" />
+                <data android:pathPattern=".wmde" />
+                <data android:pathPattern=".*\\.wmde" />
+                <data android:mimeType="*/*" />
+                <data android:mimeType="application/octet-stream" />
+            </intent-filter>
+
+        </activity>
+
+        <activity
+            android:name=".main_UI.Edit_Activity"
+            android:label="@string/s_app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden" />
+
+        <activity
+            android:name=".main_UI.View_Activity"
+            android:label="@string/s_app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".additional_UI.Help_Activity"
+            android:label="@string/s_app_name"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".additional_UI.About_Activity"
+            android:label="@string/s_app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Dialog" />
+
+        <activity
+            android:name=".additional_UI.Pref_Activity"
+            android:label="@string/s_settings"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".additional_UI.Diagramm_Activity"
+            android:label="@string/s_title_activity_diagramm"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Dialog" />
+
+        <activity
+            android:name="org.achartengine.GraphicalActivity"
+            android:label="@string/s_title_activity_diagramm" />
+
+        <activity
+            android:name=".database.Backup_Activity"
+            android:label="@string/s_backupDB"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Dialog" />
+
+        <activity
+            android:name=".database.Restore_Activity"
+            android:label="@string/s_backupDB"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Dialog" />
+
+    </application>
+
+</manifest>

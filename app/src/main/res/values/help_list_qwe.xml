@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="help_list_qwe">
+        <item>For whom this application</item>
+        <item>How data is stored in the application</item>
+        <item>How to fill catalogs</item>
+        <item>How images are stored in application</item>
+        <item>How to tune the image size to save</item>
+        <item>How to tune thumbnail size to show in list</item>
+        <item>How to change image background</item>
+        <item>How to tune data search</item>
+        <item>Search in list</item>
+        <item>How to change the list sorting</item>
+        <item>How to add new record</item>
+        <item>How to add photos</item>
+        <item>How to add scan-code</item>
+        <item>How to delete record</item>
+        <item>How to edit record</item>
+        <item>How to view enlarged image</item>
+        <item>How to use code scanner</item>
+        <item>How to share with friends</item>
+        <item>How to download database</item>
+        <item>How to upload database</item>
+        <item>How to export record</item>
+        <item>How to import record</item>
+        <item>How to view diagramm</item>
+        <item>Still have questions? There are suggestions, comments?</item>
+        <item>Want to learn more about us?</item>
+    </string-array>
+</resources>

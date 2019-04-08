@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".main_UI.Edit_Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/tb_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingLeft="1dp"
+                android:paddingRight="1dp"
+                android:theme="@style/AppTheme.AppBarOverlay"
+                app:contentInsetStart="0dp"
+                app:title=" ">
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@color/c_transparent"
+                    android:elevation="1dp"
+                    app:srcCompat="@drawable/ic_launcher"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="16dp"
+                    android:text="@string/s_app_name"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    tools:ignore="RtlSymmetry" />
+
+            </android.support.v7.widget.Toolbar>
+        </android.support.design.widget.AppBarLayout>
+
+        <EditText
+            android:id="@+id/edit_name"
+            style="@style/Style_EditText"
+            android:layout_width="match_parent"
+            android:hint="@string/s_fld_name"
+            android:imeOptions="actionNext"
+            android:inputType="text|textCapWords|textMultiLine"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColorHint="@color/c_hint"
+            android:textStyle="bold">
+            <requestFocus />
+        </EditText>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fillViewport="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/edit_tip"
+                        style="@style/Style_EditText"
+                        android:layout_width="0dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:hint="@string/s_fld_tip"
+                        android:imeOptions="actionNext"
+                        android:inputType="text|textCapWords|textMultiLine"
+                        android:textColorHint="@color/c_hint" />
+
+                    <ImageButton
+                        android:id="@+id/edit_choice_tip"
+                        style="@style/Style_ImageButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:contentDescription="@string/s_image"
+                        android:src="@drawable/ic_choice" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/edit_country"
+                        style="@style/Style_EditText"
+                        android:layout_width="0dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:gravity="center_vertical"
+                        android:hint="@string/s_fld_country"
+                        android:imeOptions="actionNext"
+                        android:inputType="text|textCapWords|textMultiLine"
+                        android:textColorHint="@color/c_hint" />
+
+                    <ImageButton
+                        android:id="@+id/edit_choice_country"
+                        style="@style/Style_ImageButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:contentDescription="@string/s_image"
+                        android:src="@drawable/ic_choice" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/contact_EditText_region"
+                        style="@style/Style_EditText"
+                        android:layout_width="0dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:gravity="center_vertical"
+                        android:hint="@string/s_fld_region"
+                        android:imeOptions="actionNext"
+                        android:inputType="text|textCapWords|textMultiLine"
+                        android:textAppearance="?android:attr/textAppearanceSmallInverse"
+                        android:textColorHint="@color/c_hint" />
+
+                    <ImageButton
+                        android:id="@+id/edit_choice_region"
+                        style="@style/Style_ImageButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0"
+                        android:contentDescription="@string/s_image"
+                        android:src="@drawable/ic_choice" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/edit_consist"
+                        style="@style/Style_EditText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:gravity="center_vertical"
+                        android:hint="@string/s_fld_contens"
+                        android:imeOptions="actionNext"
+                        android:inputType="text|textCapWords|textMultiLine"
+                        android:textAppearance="?android:attr/textAppearanceSmallInverse"
+                        android:textColorHint="@color/c_hint" />
+
+                    <ImageButton
+                        android:id="@+id/edit_choice_consist"
+                        style="@style/Style_ImageButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0"
+                        android:contentDescription="@string/s_image"
+                        android:src="@drawable/ic_choice" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/edit_firma"
+                        style="@style/Style_EditText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:ellipsize="end"
+                        android:ems="10"
+                        android:gravity="center_vertical"
+                        android:hint="@string/s_fld_firma"
+                        android:imeOptions="actionNext"
+                        android:inputType="text|textCapWords|textMultiLine"
+                        android:textColorHint="@color/c_hint" />
+
+                    <ImageButton
+                        android:id="@+id/edit_choice_firma"
+                        style="@style/Style_ImageButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0"
+                        android:contentDescription="@string/s_image"
+                        android:src="@drawable/ic_choice" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/edit_god"
+                        style="@style/Style_EditText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:gravity="center_vertical"
+                        android:hint="@string/s_fld_god"
+                        android:imeOptions="actionDone"
+                        android:inputType="text|textCapWords|textMultiLine"
+                        android:textColorHint="@color/c_hint" />
+
+                    <ImageButton
+                        android:id="@+id/edit_choice_god"
+                        style="@style/Style_ImageButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0"
+                        android:contentDescription="@string/s_image"
+                        android:src="@drawable/ic_choice" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/edit_emk"
+                        style="@style/Style_EditText"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:gravity="center_vertical"
+                        android:hint="@string/s_fld_emk"
+                        android:imeOptions="actionDone"
+                        android:inputType="text|textCapWords|textMultiLine"
+                        android:textColorHint="@color/c_hint" />
+
+                    <ImageButton
+                        android:id="@+id/edit_choice_emk"
+                        style="@style/Style_ImageButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0"
+                        android:contentDescription="@string/s_image"
+                        android:src="@drawable/ic_choice" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/edit_alk"
+                        style="@style/Style_EditText"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:gravity="center_vertical"
+                        android:hint="@string/s_fld_alk"
+                        android:imeOptions="actionDone"
+                        android:inputType="text|textCapWords|textMultiLine"
+                        android:textColorHint="@color/c_hint" />
+
+                    <ImageButton
+                        android:id="@+id/edit_choice_alk"
+                        style="@style/Style_ImageButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0"
+                        android:contentDescription="@string/s_image"
+                        android:src="@drawable/ic_choice" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/edit_sug"
+                        style="@style/Style_EditText"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:gravity="center_vertical"
+                        android:hint="@string/s_fld_sug"
+                        android:imeOptions="actionDone"
+                        android:inputType="text|textCapWords|textMultiLine"
+                        android:textColorHint="@color/c_hint" />
+
+                    <ImageButton
+                        android:id="@+id/edit_choice_sug"
+                        style="@style/Style_ImageButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0"
+                        android:contentDescription="@string/s_image"
+                        android:src="@drawable/ic_choice" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/edit_barcode"
+                        style="@style/Style_EditText"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:gravity="center_vertical"
+                        android:hint="@string/s_fld_barcode"
+                        android:imeOptions="actionDone"
+                        android:inputType="text|textCapWords|textMultiLine"
+                        android:textColorHint="@color/c_hint" />
+
+                    <ImageButton
+                        android:id="@+id/edit_choice_scan"
+                        style="@style/Style_ImageButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0"
+                        android:contentDescription="@string/s_image"
+                        android:src="@drawable/ic_scanner" />
+
+                    <ImageButton
+                        android:id="@+id/edit_choice_paste"
+                        style="@style/Style_ImageButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0"
+                        android:contentDescription="@string/s_image"
+                        android:src="@drawable/ic_pastered" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        style="@style/Style_EditText"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:enabled="false"
+                        android:gravity="center_vertical"
+                        android:hint="@string/s_fld_rating"
+                        android:imeOptions="actionDone"
+                        android:inputType="text|textCapWords|textMultiLine"
+                        android:text="@string/s_fld_rating"
+                        android:textColorHint="@color/c_hint" />
+
+                    <ImageView
+                        android:id="@+id/edit_rating"
+                        style="@style/Style_ImageButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:contentDescription="@string/s_image"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/ic_rating_0" />
+
+                    <ImageButton
+                        android:id="@+id/edit_choice_rating"
+                        style="@style/Style_ImageButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:contentDescription="@string/s_image"
+                        android:src="@drawable/ic_choice" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/edit_price"
+                        style="@style/Style_EditText"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:gravity="center_vertical"
+                        android:hint="@string/s_fld_cena"
+                        android:imeOptions="actionDone"
+                        android:inputType="text|textCapWords|textMultiLine"
+                        android:textColorHint="@color/c_hint" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/edit_comment"
+                        style="@style/Style_EditText"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:gravity="center_vertical"
+                        android:hint="@string/s_fld_comment"
+                        android:imeOptions="actionDone"
+                        android:inputType="text|textCapWords|textMultiLine"
+                        android:textColorHint="@color/c_hint" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/edit_dt"
+                        style="@style/Style_EditText"
+                        android:layout_width="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="false"
+                        android:ems="10"
+                        android:focusable="false"
+                        android:focusableInTouchMode="false"
+                        android:gravity="center_vertical"
+                        android:hint="@string/s_fld_date"
+                        android:inputType="date"
+                        android:textColorHint="@color/c_hint" />
+
+                    <ImageButton
+                        android:id="@+id/edit_choice_date"
+                        style="@style/Style_ImageButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0"
+                        android:contentDescription="@string/s_image"
+                        android:src="@drawable/ic_calendar" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ly_graphic"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ru.droidwelt.winememo.common.ExtendedViewPager
+                        android:id="@+id/edit_graphic"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="4dp"
+                        android:contentDescription="@string/s_image"
+                        android:focusable="false">
+
+                    </ru.droidwelt.winememo.common.ExtendedViewPager>
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+
+
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

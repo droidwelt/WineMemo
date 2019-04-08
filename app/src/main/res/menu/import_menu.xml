@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/import_menuItem_save"
+        android:alphabeticShortcut="s"
+        android:icon="@drawable/ic_save"
+        android:orderInCategory="2"
+        app:showAsAction="always|withText"
+        android:title="@string/s_menu_import"
+        android:titleCondensed="@string/s_menu_import" />
+</menu>

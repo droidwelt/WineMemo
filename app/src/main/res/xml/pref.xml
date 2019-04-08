@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/s_settings">
+
+    <ListPreference
+        android:defaultValue="0"
+        android:entries="@array/animation_mode_list"
+        android:entryValues="@array/animation_mode_val"
+        android:key="animation_mode"
+        android:summary="@string/s_pref_animation_summary"
+        android:title="@string/s_pref_animation_title" />
+    <ListPreference
+        android:defaultValue="1"
+        android:entries="@array/picturebig_screen_list"
+        android:entryValues="@array/picturebig_screen_val"
+        android:key="picturebig_screen"
+        android:summary="@string/s_pref_picturebig_summary"
+        android:title="@string/s_pref_picturebig_title" />
+    <ListPreference
+        android:defaultValue="1"
+        android:entries="@array/picturesmall_screen_list"
+        android:entryValues="@array/picturesmall_screen_val"
+        android:key="picturesmall_screen"
+        android:summary="@string/s_pref_picturesmall_summary"
+        android:title="@string/s_pref_picturesmall_title" />
+    <ListPreference
+        android:defaultValue="1"
+        android:entries="@array/picture_bgr_list"
+        android:entryValues="@array/picture_bgr_val"
+        android:key="picture_bgr"
+        android:summary="@string/s_pref_picture_bgr_summary"
+        android:title="@string/s_pref_picture_bgr_title" />
+
+    <CheckBoxPreference
+        android:defaultValue="0"
+        android:key="choice_allfield"
+        android:summary="@string/s_pref_choice_allfield_summary"
+        android:title="@string/s_pref_choice_allfield_title" />
+
+    <CheckBoxPreference
+        android:defaultValue="1"
+        android:key="choice_deleteevent"
+        android:summary="@string/s_pref_deleteevent_summary"
+        android:title="@string/s_pref_deleteevent_title" />
+
+</PreferenceScreen>

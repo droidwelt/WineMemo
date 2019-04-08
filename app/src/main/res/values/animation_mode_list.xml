@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string-array name="animation_mode_list">
+        <item>none</item>
+        <item>down -> up</item>
+        <item>up -> down</item>
+        <item>right -> left</item>
+        <item>left -> right</item>
+    </string-array>
+</resources>

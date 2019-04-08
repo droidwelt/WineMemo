@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="diagramm_list_name">
+        <item>Type</item>
+        <item>Country</item>
+        <item>Appellation</item>
+        <item>Grape Variety(ies)</item>
+        <item>Vintage</item>
+        <item>Alcohol, %</item>
+        <item>Rating</item>
+    </string-array>
+</resources>

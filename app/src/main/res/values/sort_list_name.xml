@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sort_list_name">
+        <item>Wine name</item>
+        <item>Type</item>
+        <item>Country</item>
+        <item>Appellation</item>
+        <item>Grape Variety(ies)</item>
+        <item>Winery</item>
+        <item>Vintage</item>
+        <item>Alcohol, %</item>
+        <item>Sugar, g/l</item>
+        <item>Rating</item>
+        <item>Date asc</item>
+        <item>Date desc</item>
+    </string-array>
+</resources>
+
+

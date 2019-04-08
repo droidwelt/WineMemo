@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="diagramm_list_name">
+        <item>Тип</item>
+        <item>Страна</item>
+        <item>Регион</item>
+        <item>Сорта винограда</item>
+        <item>Год</item>
+        <item>Алкоголь, %</item>
+        <item>Оценка</item>
+    </string-array>
+</resources>

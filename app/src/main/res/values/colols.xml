@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#b5384a</color>
+    <color name="colorPrimaryDark">#636363</color>
+    <color name="colorAccent">#2c6e8c</color>
+    <color name="c_white">#ffffff</color>
+    <color name="c_red">#ff0000</color>
+
+    <color name="c_transparent">@android:color/transparent</color>
+    <color name="c_tint">#cedef8</color>
+
+    <color name="c_toast">#2c2c9b</color>
+
+    <color name="c_bgr_text">#ffffff</color>
+    <color name="c_hint">#cccccc</color>
+    <color name="c_bgr_0">#000000</color>
+    <color name="c_bgr_1">#888888</color>
+    <color name="c_bgr_2">#ffffff</color>
+
+    <color name="c_highlight">#cedef8</color>
+    <color name="c_digr_1">#3e69bf</color>
+    <color name="c_digr_2">#c95689</color>
+    <color name="c_digr_3">#4ba862</color>
+    <color name="c_digr_4">#1bcce7</color>
+    <color name="c_digr_5">#d03255</color>
+    <color name="c_digr_6">#f9b742</color>
+    <color name="c_digr_7">#acb742</color>
+    <color name="c_digr_8">#238FCE</color>
+    <color name="c_digr_9">#b31f45</color>
+    <color name="c_digr_10">#b1f44c</color>
+
+</resources>
